@@ -1,0 +1,12 @@
+{
+	"ProxyRules": [
+		{
+			"RequestPathRegex": "^/services/SimpleStockQuoteService",
+			"ForwardTo": "http://localhost:9000"
+		},
+		{
+			"RequestPathRegex": "^/services/FastStockQuoteService",
+			"ForwardTo": "http://localhost:9001"
+		}
+	]
+}
